@@ -7,6 +7,12 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	<!-- Java EE 8+(Servlet 4.0+)，可在web.xml一次設定應用系統所有的請求參數編碼 -->
+	<!-- Ran時在打開 -->
+	<!-- <request-character-encoding>UTF-8</request-character-encoding>
+	<response-character-encoding>UTF-8</response-character-encoding> -->
+	
+	
 	
 	<servlet>
 		<servlet-name>registerSLServlet</servlet-name>
